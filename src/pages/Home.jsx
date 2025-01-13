@@ -32,9 +32,7 @@ const Home = () => {
           </h1>
           {/* Subheading */}
           <p className="mt-4 text-base md:text-xl lg:text-2xl max-w-2xl mx-auto text-white">
-            Discover a smarter way to source and reuse bulk materials. Connect
-            with trusted vendors and contractors to reduce waste, lower costs,
-            and make a lasting impact on the environment.
+          Imagine a world where every material finds a second life—your business can lead the charge
           </p>
           {/* Call to Actions */}
           <div className="mt-6 flex flex-wrap justify-center gap-4">
