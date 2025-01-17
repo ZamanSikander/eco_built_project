@@ -74,7 +74,7 @@ const ContractorSignup = () => {
                 <label className="block text-sm font-medium mb-2">Industry Type</label>
                 <select
                   className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
-                  multiple
+                  
                 >
                   <option>Construction</option>
                   <option>Renovation</option>
@@ -84,29 +84,6 @@ const ContractorSignup = () => {
             </div>
           </div>
   
-          {/* Project Information */}
-          <div>
-            <h2 className="text-xl md:text-2xl font-semibold mb-4">Project Information</h2>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium mb-2">Current Project Type</label>
-                <select
-                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
-                >
-                  <option>Residential</option>
-                  <option>Commercial</option>
-                  <option>Industrial</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Estimated Project Budget</label>
-                <input
-                  type="number"
-                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
-                />
-              </div>
-            </div>
-          </div>
   
           {/* Account Information */}
           <div>

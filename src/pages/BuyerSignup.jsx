@@ -47,16 +47,6 @@ const BuyerSignup = () => {
                   className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
                 />
               </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Type of Buyer</label>
-                <select
-                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
-                >
-                  <option>Individual</option>
-                  <option>Corporate</option>
-                  <option>Government</option>
-                </select>
-              </div>
             </div>
           </div>
   

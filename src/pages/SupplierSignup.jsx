@@ -147,30 +147,6 @@ const SupplierSignup = () => {
             </div>
           </div>
   
-          {/* Platform Details */}
-          <div>
-            <h2 className="text-xl md:text-2xl font-semibold mb-4">Platform Details</h2>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium mb-2">Inventory Upload</label>
-                <input
-                  type="file"
-                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-2">Preferred Communication Method</label>
-                <select
-                  className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-green-500 focus:border-green-500"
-                >
-                  <option>Email</option>
-                  <option>Phone</option>
-                  <option>Platform Messaging</option>
-                </select>
-              </div>
-            </div>
-          </div>
-  
           {/* Account Information */}
           <div>
             <h2 className="text-xl md:text-2xl font-semibold mb-4">Account Information</h2>
@@ -205,6 +181,7 @@ const SupplierSignup = () => {
             Sign Up
           </button>
         </form>
+       
       </div>
     );
   };
